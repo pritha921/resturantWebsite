@@ -102,6 +102,10 @@ nav{
     transition: 0.2s ease-in-out;
    
 }
+.divider{
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
 
 
 
