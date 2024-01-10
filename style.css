@@ -166,7 +166,37 @@ nav{
     grid-area: I7;
 }
 
+/* Footer Section */
+footer{
+    background-color: #fff0db;
+}
 
+.link_lists h3,
+.news_letter h3{
+    margin-bottom: 10px;
+    color:gray;
+}
+.link_lists ul{
+    list-style: none;
+}
+.link_lists ul li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.news_letter input{
+    padding: 5px 40px;
+    margin-bottom: 10px;
+}
+.icon_container{
+    display: flex;
+    gap:15px;
+    font-size: 16px;
+}
+.footer_container{
+    padding:30px;
+    display:flex;
+    justify-content: space-between;
+}
 
 
 @media(max-width: 786px){
@@ -199,5 +229,8 @@ nav{
 
     .grid-image{
         border-radius: 0px;
+    }
+    .footer_container{
+        flex-direction: column;
     }
 }
